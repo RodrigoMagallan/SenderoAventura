@@ -8,7 +8,7 @@ html, body {
   color: #222;
 }
 body{
-  background: linear-gradient(150deg, #ffffff, #d5d5d598, #d5d5d5);
+  background: linear-gradient(150deg, #5eff01, #a2e0a2, #589b58);
 }
 .navbar{
   padding: .8rem;
@@ -60,7 +60,7 @@ padding-bottom: 2rem;
 }
 
 .welcome hr{
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid #589b58;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
@@ -109,7 +109,7 @@ color: #d5d5d5
 }
 
 footer{
-  background-color: #9c9a9a;
+  background-color: #589b58;
   color: #d5d5d5;
   padding-top: 2rem;
 
