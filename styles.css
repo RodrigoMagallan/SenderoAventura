@@ -8,7 +8,7 @@ html, body {
   color: #222;
 }
 body{
-  background: linear-gradient(150deg, #5eff01, #a2e0a2, #589b58);
+  background: linear-gradient(150deg, #ceecbc, #c6d3c6, #f8f8f8);
 }
 .navbar{
   padding: .8rem;
@@ -78,8 +78,17 @@ padding-bottom: 2rem;
 .fa-tint{
   color: green
 }
+.fa-bullseye{
+  color: red;
+}
+.fa-eye{
+  color: white;
+}
+.fa-shield-alt{
+  color: gold;
+}
 
-.fa-free-code-camp, .fa-fish, .fa-tint{
+.fa-free-code-camp, .fa-fish, .fa-tint, .fa-shield-alt, .fa-bullseye, .fa-eye{
 font-size: 4em;
 margin: 1rem;
 }
@@ -106,6 +115,27 @@ color:#157afb;
 .fa-twitter:hover,
 .fa-instagram:hover{
 color: #d5d5d5
+}
+.coupon {
+  border: 5px dotted #bbb; /* Dotted border */
+  width: 80%;
+  border-radius: 15px; /* Rounded border */
+  margin: 0 auto; /* Center the coupon */
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
 }
 
 footer{
